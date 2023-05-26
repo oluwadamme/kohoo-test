@@ -42,10 +42,10 @@ class CreatorCard extends StatelessWidget {
             const SizedBox(height: 6),
             Text(
               creatorModel.amount,
-              style: Theme.of(context)
-                  .textTheme
-                  .bodySmall!
-                  .copyWith(color: AppColors.amber0D),
+              style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                    color: AppColors.amber0D,
+                    fontFamily: 'robot',
+                  ),
             ),
           ],
         ),

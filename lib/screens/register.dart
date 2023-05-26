@@ -26,6 +26,7 @@ class _RegisterState extends State<Register> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         leadingWidth: 60,
         leading: Padding(
